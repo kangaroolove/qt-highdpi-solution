@@ -20,3 +20,6 @@ To achieve better scaling display, we should use vectorgraph, like svg. Moreover
 - if you use StyleSheet，you have to use image:url, border-image and background-image are error.
 - you should use point size throughtout your application, when you are using font.
 - you should use a QPixmap which is produced by QIcon, when you are using a painter to draw pixmaps or decorating buttons and so on.
+## result
+![image](https://user-images.githubusercontent.com/16329871/170678289-9e9203e3-a5dc-4238-9f13-3969a4e0b122.png)
+
