@@ -142,11 +142,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLabel" name="label_5">
-           <property name="text">
-            <string>TextLabel</string>
-           </property>
-          </widget>
+          <widget class="QLabel" name="labelOnlyPixmap"/>
          </item>
         </layout>
        </item>
@@ -173,11 +169,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLabel" name="label_6">
-           <property name="text">
-            <string>TextLabel</string>
-           </property>
-          </widget>
+          <widget class="QLabel" name="labelQIconPixmap"/>
          </item>
         </layout>
        </item>

@@ -19,5 +19,7 @@ protected:
     void paintEvent(QPaintEvent* event);
 private:
     Ui::MainWindow *ui;
+    void initializeButtons();
+    void initializeLabels();
 };
 #endif // MAINWINDOW_H
