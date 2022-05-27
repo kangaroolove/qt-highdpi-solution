@@ -20,12 +20,11 @@ MainWindow::~MainWindow()
 
 void MainWindow::initializeButtons()
 {
-    // styleSheet结合text, text会在中间显示,与QIcon结合，图像会在左，字在右
-    // 图片很小张，重叠
+    // overlapping, small picture
     ui->btn1->setStyleSheet("#btn1{border:none; width:100px; height:100px; border-image:url(:/image/send.svg)}");
-    // image是正常的，缩放正常, 不受AA_UseHighDpiPixmaps影响
+    // Correct, it doesn't be affect by AA_UseHighDpiPixmaps
     ui->btn2->setStyleSheet("#btn2{border:none; width:400px; height:400px; background-image:url(:/image/send.svg)}");
-    // 单张，图像模糊
+    // Vague single picture, 
     ui->btn3->setStyleSheet("#btn3{border:none; width:200px; height:200px; image:url(:/image/send.svg)}");
 }
 

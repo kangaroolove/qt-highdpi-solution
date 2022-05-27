@@ -41,7 +41,7 @@ double calculateScaleFactor()
 int main(int argc, char *argv[])
 {
     double scaleFactor = calculateScaleFactor();
-    // 让QIcon的pixmap可以自动适配，适合svg
+    // enable QIcon produces highdpi pixmap
     QApplication::setAttribute(Qt::AA_UseHighDpiPixmaps);
 
     qputenv("QT_SCALE_FACTOR", QByteArray::number(scaleFactor));
