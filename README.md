@@ -15,7 +15,7 @@ If you can't change the qt version or you find that your project can't be compil
 - step2: Use QT_SCALE_FACTOR, I find the application will scale the size correctly and the font is clear.
 
 ## In addition
-To achieve better scaling display, we should use vectorgraph,like svg.Moreover, we should use AA_UseHighDpiPixmaps  and QIcon to get a clear picture. I have done some tests in the code. There are some conclusions about combining svg.
+To achieve better scaling display, we should use vectorgraph, like svg. Moreover, we should use AA_UseHighDpiPixmaps and QIcon to get a clear picture. I have done some tests in the code. There are some conclusions about combining svg.
 ### conclusions
 - if you use StyleSheet，you have to use image:url, border-image and background-image are error.
 - you should use point size, when you are drawing font.
