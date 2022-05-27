@@ -5,7 +5,7 @@ This is a project which teaches you how to solve the high dpi problem in qt. Loo
 If your project combine with OpenGL, you need to be careful. In other words, If you just write the OpenGL in Qt, I think it's OK, and you dont't need to do anything special. Whereas, If you are using a OpenGL lib which written by your colleagues, It means that you maybe need to handle the dpi by yourself to get a correct result, like correct OpenGL window size or position. Please do some tests to verify whether existing those problems.
 
 ## Method1
-- step1: Update you qt version to 6.3.
+- step1: Update you qt version >= 6.3.
 - step2: You don't need to do extra action, just rebuild your project.
 
 If you can't change the qt version or you find that your project can't be compiled through, when you build your project with Qt6. Then you can use the following method. This method is based on Windows, but it doesn't matter whether your projects based on Linux or Mac. They are the same thought. This method is suitable for Qt5 version which supports QT_SCALE_FACTOR. It means that Qt version >= 5.6, If I remember correctly.
