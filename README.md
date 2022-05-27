@@ -18,5 +18,5 @@ If you can't change the qt version or you find that your project can't be compil
 To achieve better scaling display, we should use vectorgraph, like svg. Moreover, we should use AA_UseHighDpiPixmaps and QIcon to get a clear picture. I have done some tests in the code. There are some conclusions about combining svg.
 ### conclusions
 - if you use StyleSheet，you have to use image:url, border-image and background-image are error.
-- you should use point size, when you are drawing font.
-- you should use a QPixmap which is produced by QIcon, when you are using a painter to draw pixmaps or decorate buttons and so on.
+- you should use point size throughtout your application, when you are using font.
+- you should use a QPixmap which is produced by QIcon, when you are using a painter to draw pixmaps or decorating buttons and so on.
