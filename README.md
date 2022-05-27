@@ -1,4 +1,3 @@
-[中文](https://github.com/kangaroolove/qt-highdpi-solution/blob/master/README_zh.md)
 ## Qt-HighDPI-Solution
 This is a project which teaches you how to solve the high dpi problem in qt. Looking at the qt assistant, it tells us that using a attribute which called Qt:AA_EnableHighDpiScaling. However, I found that it didn't work well, so I tried to use other methods to achieve that. There are two methods you can use.
 
