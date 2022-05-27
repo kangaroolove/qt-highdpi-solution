@@ -2,7 +2,7 @@
 ## Qt-HighDPI-Solution
 This is a project which teaches you how to solve the high dpi problem in qt. Looking at the qt assistant, it tells us that using a attribute which called Qt:AA_EnableHighDpiScaling. However, I found that it didn't work well, so I tried to use other methods to achieve that. There are two methods you can use.
 
-##Important
+## Important
 If your project combine with OpenGL, you need to be careful. In other words, If you just write the OpenGL in Qt, I think it's OK, and you dont't need to do anything special. Whereas, If you are using a OpenGL lib which written by your colleagues, It means that you maybe need to handle the dpi by yourself to get a correct result, like correct OpenGL window size or position. Please do some tests to verify whether existing those problems.
 
 ## Method1
