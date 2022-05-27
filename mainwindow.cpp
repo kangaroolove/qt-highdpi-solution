@@ -18,29 +18,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::paintEvent(QPaintEvent* event)
-{
-#if 0
-    QPainter painter(this);
-    // 加了SmoothPixmap感觉速度快了些
-    painter.setRenderHints(QPainter::Antialiasing | QPainter::SmoothPixmapTransform);
-    // 缩放后，x,y,width,height会自动扩大
-    //painter.drawRect(10, 10, 100, 100);
-
-    // 用icon画出的svg图片是可以缩放的
-#if 1
-    QIcon icon("C:/Users/kangaroo/Desktop/1.svg");
-    QPixmap p = icon.pixmap(900, 900);
-#else
-    // 直接画是会模糊
-    QPixmap p("C:/Users/kangaroo/Desktop/1.svg");
-#endif
-    painter.drawPixmap(0, 0, p);
-#else
-    QWidget::paintEvent(event);
-#endif
-}
-
 void MainWindow::initializeButtons()
 {
     // styleSheet结合text, text会在中间显示,与QIcon结合，图像会在左，字在右

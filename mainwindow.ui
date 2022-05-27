@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>656</width>
-    <height>614</height>
+    <height>726</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -177,13 +177,13 @@
      </widget>
     </item>
     <item>
-     <widget class="QGroupBox" name="groupBox_3">
+     <widget class="QGroupBox" name="groupBoxWidget">
       <property name="title">
        <string>widget</string>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_6">
        <item>
-        <widget class="QWidget" name="widget" native="true"/>
+        <widget class="CustomerWidget" name="widget" native="true"/>
        </item>
       </layout>
      </widget>
@@ -202,6 +202,14 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CustomerWidget</class>
+   <extends>QWidget</extends>
+   <header>customerwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>
